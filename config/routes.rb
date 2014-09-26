@@ -1,5 +1,5 @@
-Rails.application.routes.draw do
-  resources :microsofts
+DemoApp::Application.routes.draw do
+  resources :microposts
 
   resources :users
 
